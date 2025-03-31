@@ -200,11 +200,82 @@ header {
   text-align: center;
 }
 
-.about {
-  padding: 80px 40px;
-  background: white;
-  text-align: center;
+.about{
+  margin-bottom: 150px;
 }
+.sobre-nos {
+  height: 687px;
+  position: relative;
+}
+
+.campus {
+  border-radius: 50px 16px 16px 0px;
+  width: 855px;
+  height: 569.61px;
+  position: absolute;
+  left: 0px;
+  top: 59px;
+  object-fit: cover;
+  aspect-ratio: 855/569.61;
+  z-index: 0; /* Coloca a imagem atrás do retângulo */
+}
+
+.retangulo-azul {
+  background: var(--box, #c1e3d6);
+  border-radius: 40px;
+  width: 686px;
+  height: 687px;
+  position: absolute;
+  left: 799px;
+  top: 0px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  z-index: 1; /* Coloca o retângulo na frente da imagem */
+}
+
+.sobre-nos-titulo {
+  color: #101130;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 44px;
+  line-height: 56px;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - -288.5px);
+  top: 67px;
+  width: 235px;
+  z-index: 2; /* Garante que o título fique acima da imagem e do retângulo */
+}
+
+.texto-sobre-nos {
+  color: #606176;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 858px;
+  top: 155px;
+  width: 582px;
+  z-index: 2; /* Garante que o texto fique acima do retângulo */
+}
+
+.univas-nome {
+  color: #606176;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - -194.5px);
+  top: 123px;
+  width: 424px;
+  z-index: 2; /* Garante que o nome da universidade fique acima do retângulo */
+}
+
 
 footer,
 footer * {
