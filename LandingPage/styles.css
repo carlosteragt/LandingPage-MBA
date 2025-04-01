@@ -184,6 +184,9 @@ header {
   object-fit: contain;
 }
 /* usei magin pra ajeitar a imagem */
+.perguntas{
+  margin-bottom: 150px;
+}
 .faq-image {
   margin-top: 20px;
   width: 1342px;
@@ -194,10 +197,68 @@ header {
 }
 
 /* DEPOIMENTOS, SOBRE E FOOTER (MANTIDOS ORIGINAIS) */
-.testimonials {
-  padding: 80px 40px;
-  background: #e3f6f5;
-  text-align: center;
+.testimonials{
+  margin-bottom: 150px;
+}
+.carousel {
+  position: relative;
+  width: 1399px;
+  height: 673px;
+}
+
+.background-shape {
+  background: #c1e3d6;
+  border-radius: 0px 400px 0px 0px;
+  width: 1399px;
+  height: 673px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.carousel-container {
+  position: absolute;
+  left: 390px;
+  top: 190px;
+}
+
+.testimonial-image {
+  width: 620px;
+  height: 443px;
+  object-fit: fill;
+  aspect-ratio: 620/443;
+}
+
+.headline {
+  color: #101130;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 44px;
+  line-height: 56px;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  position: absolute;
+  left: 156px;
+  top: 101px;
+  width: 476px;
+}
+
+.seta {
+  width: 28px;
+  height: 23px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.seta-direita {
+  left: 1232.5px;
+  top: 134px;
+}
+
+.seta-esquerda {
+  left: 1198px;
+  top: 134px;
 }
 
 .about{

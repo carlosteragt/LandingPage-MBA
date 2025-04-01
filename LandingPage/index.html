@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page MBA</title>
     <link rel='stylesheet' type='text/css' href="styles.css">
+    <script src="./scripts.js"></script>
 </head>
 <body>
     
@@ -74,15 +75,15 @@
 
 <!-- Depoimentos (MANTIDO ORIGINAL) -->
 <section id="feedbacks" class="testimonials">
-    <h2>O que nossos alunos dizem?</h2>
-    <div class="testimonial">
-        <p>“Transformei minha carreira com o MBA da UNIVAS.”</p>
-        <span>Felipe M. - São Paulo, Brasil</span>
+  <div class="carousel">
+    <div class="background-shape"></div>
+    <div class="carousel-container">
+      <img class="testimonial-image" src="images/depoimento-1.png" id="testimonial-img" />
     </div>
-    <div class="testimonial">
-        <p>“O MBA me deu a confiança para dar o próximo passo na minha carreira.”</p>
-        <span>Ana P. - Rio de Janeiro, Brasil</span>
-    </div>
+    <div class="headline">O que nossos alunos dizem?</div>
+    <img class="seta seta-direita" src="images/seta_direita.png" onclick="nextSlide()" />
+    <img class="seta seta-esquerda" src="images/seta_esquerda.png" onclick="prevSlide()" />
+  </div>
 </section>
 
 <!-- Sobre Nós (MANTIDO ORIGINAL) -->
