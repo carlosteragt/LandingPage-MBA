@@ -44,26 +44,30 @@
         <div class="form-content">
             <h3>Preencha para Receber Detalhes do MBA</h3>
             <form class="mba-form">
-                <input type="text" placeholder="Nome completo" required>
-                <input type="email" placeholder="E-mail profissional" required>
-                <input type="tel" placeholder="Telefone" required>
-                <input type="text" placeholder="Cargo atual" required>
-                <select required>
-                    <option value="">Formação acadêmica</option>
-                    <option>Graduação Completa</option>
-                    <option>Pós-Graduação</option>
-                    <option>Mestrado</option>
-                    <option>Doutorado</option>
-                </select>
-                <select required>
-                    <option value="">Faixa salarial</option>
-                    <option>Até R$ 5.000</option>
-                    <option>R$ 5.001 - R$ 10.000</option>
-                    <option>R$ 10.001 - R$ 20.000</option>
-                    <option>Acima de R$ 20.000</option>
-                </select>
-                <button type="submit" class="btn-form">Receber Conteúdo Agora →</button>
+              <input type="text" name="nome" placeholder="Nome completo" required>
+              <input type="email" name="email" placeholder="E-mail profissional" required>
+              <input type="tel" name="telefone" placeholder="Telefone" required>
+              <input type="text" name="cargo" placeholder="Cargo atual" required>
+              
+              <select name="formacao" required>
+                <option value="">Formação acadêmica</option>
+                <option>Graduação Completa</option>
+                <option>Pós-Graduação</option>
+                <option>Mestrado</option>
+                <option>Doutorado</option>
+              </select>
+              
+              <select name="faixa_salarial" required>
+                <option value="">Faixa salarial</option>
+                <option>Até R$ 5.000</option>
+                <option>R$ 5.001 - R$ 10.000</option>
+                <option>R$ 10.001 - R$ 20.000</option>
+                <option>Acima de R$ 20.000</option>
+              </select>
+            
+              <button type="submit" class="btn-form">Receber Conteúdo Agora →</button>
             </form>
+            
         </div>
         <img src="images/image-form.png" class="form-image" alt="MBA UNIVAS">
     </div>
